@@ -29,11 +29,12 @@
 
 Os passos abaixo foram realizados na plataforma MacOS.
 
-- Abrir Visual Studio Code
-- Criar pasta PaymentContext
-- Abrir terminal dentro da pasta
-- Criar o arquivo da Solution (.sln)
+Parte-se da premissa que já se tem instalado o **.NET Core, Visual Studio Code** no computador.
 
+- Abrir o **Visual Studio Code**.
+- Criar pasta **PaymentContext**.
+- Abrir o **Terminal** dentro da pasta
+- Criar o arquivo **PaymentContext.sln** da solution.
 ```
 dotnet new sln
 ```
