@@ -22,12 +22,15 @@
 20. Testando os Handlers
 21. Queries
 22. Testando as suas Queries
+23. Exemplo Prático
 
 
+## Exemplo prático
 
-Abrir Visual Studio Code
+Os passos abaixo foram realizados na plataforma MacOS.
 
-Criar pasta Paymentcontext
+ - Abrir Visual Studio Code
+ - Criar pasta Paymentcontext
 
 Abrir terminal dentro da pasta
 
