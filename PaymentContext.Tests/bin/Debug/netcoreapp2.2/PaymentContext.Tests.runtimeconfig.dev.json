@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Volumes/SSD/Users/ViniciusNunesMacedo/.dotnet/store/|arch|/|tfm|",
+      "/Volumes/SSD/Users/ViniciusNunesMacedo/.nuget/packages",
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ]
+  }
+}
