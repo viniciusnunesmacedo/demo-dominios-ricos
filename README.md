@@ -29,24 +29,21 @@
 
 Os passos abaixo foram realizados na plataforma MacOS.
 
- - Abrir Visual Studio Code
- - Criar pasta Paymentcontext
-
-Abrir terminal dentro da pasta
-
-Criar o arquivo da Solution (.sln)
+- Abrir Visual Studio Code
+- Criar pasta PaymentContext
+- Abrir terminal dentro da pasta
+- Criar o arquivo da Solution (.sln)
 
 ```
 dotnet new sln
 ```
-
-criar as pastas abaixo:
+- criar as pastas abaixo:
 ```
 mkdir pasta Paymentcontext.Domain
 mkdir pasta Paymentcontext.Shared
 mkdir pasta Paymentcontext.Tests
 ```
-Entrar dentro de cada pasta e criar o csproj do projeto
+- Entrar dentro de cada pasta e criar o csproj do projeto
 ```
 cd Paymentcontext.Domain
 dotnet new classlib
@@ -60,7 +57,7 @@ cd Paymentcontext.Tests
 dotnet new mstest
 cd ..
 ```
-Na raiz, adicionar os projetos criados na solution
+- Na raiz, adicionar os projetos criados na solution
 ```
 dotnet sln add PaymentContext.Domain/PaymentContext.Domain.csproj
 dotnet sln add PaymentContext.Shared/PaymentContext.Shared.csproj
